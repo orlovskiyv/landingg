@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="formstyle.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600;700&family=Noto+Sans+Glagolitic&display=swap" rel="stylesheet">
+    <title>Form</title>
+</head>
+<body bgcolor="fffcd4">
+    <div class="header">
+        <ul class="menu">
+            <li><a href="landing.html">Home</a></li>
+            <li><a href="landing.html">About us</a></li>
+            <li><a href="">Contact</a></li>
+        </ul>
+    </div>
+    <div class="main__info">
+        <div class="heading">
+            <h1>Contact us</h1>
+        </div>
+        <form action="vo35824@gmail.com" method="post">
+            <p align="left" class="form__row">
+                <label for="name"><b>Name</b></label class="name">
+            </p>
+            <input type="text" id="name" name="name" size="60px" required class="field">
+            
+            <p align="left" class="form__row">
+                <label for="email"><b>Email</b></label> 
+            </p>
+            <input type="email" id="email" name="email" size="60px" required>
+
+            <p align="left" class="form__row">
+                <label for="Message"><b>Message</b></label>
+            </p>
+            <input type="text" id="Message" name="Message" size="60px" required>
+
+            <button type="submit" >Submit</button>
+        </form> 
+    </div>  
+</body>
+</html>
